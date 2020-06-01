@@ -37,6 +37,8 @@ Sharing.share({
 
 ## Interfaces
 
+SharingOptions
+
 | Properties   | Default | Type       | Description                                                            |
 | ------------ | ------- | ---------- | ---------------------------------------------------------------------- |
 | fileNames    |         | `string[]` | Array containing the names of the files.                               |
