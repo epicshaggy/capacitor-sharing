@@ -8,6 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 import { WebPlugin } from "@capacitor/core";
+import * as FileSaver from "file-saver";
 export class SharingWeb extends WebPlugin {
     constructor() {
         super({
@@ -15,10 +16,25 @@ export class SharingWeb extends WebPlugin {
             platforms: ["web"],
         });
     }
+    toByteArray(base64Data) {
+        const byteCharacters = atob(base64Data);
+        const byteNumbers = new Array(byteCharacters.length);
+        for (let i = 0; i < byteCharacters.length; i++) {
+            byteNumbers[i] = byteCharacters.charCodeAt(i);
+        }
+        return new Uint8Array(byteNumbers);
+    }
     share(options) {
         return __awaiter(this, void 0, void 0, function* () {
-            console.log("ECHO", options);
-            return Promise.resolve();
+            return new Promise((resolve) => {
+                for (let i = 0; i < options.fileNames.length; i++) {
+                    let blob = new Blob([this.toByteArray(options.base64Values[i])], {
+                        type: "application/octet-stream",
+                    });
+                    FileSaver.saveAs(blob, options.fileNames[i]);
+                }
+                resolve();
+            });
         });
     }
 }

@@ -14,7 +14,8 @@
   "license": "MIT",
   "dependencies": {
     "@capacitor/core": "latest",
-    "@types/file-saver": "^2.0.1"
+    "@types/file-saver": "^2.0.1",
+    "file-saver": "^2.0.2"
   },
   "devDependencies": {
     "rimraf": "^3.0.0",
