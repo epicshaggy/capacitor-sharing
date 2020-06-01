@@ -41,4 +41,4 @@ Sharing.share({
 | ------------ | ------- | ---------- | ---------------------------------------------------------------------- |
 | fileNames    |         | `string[]` | Array containing the names of the files.                               |
 | base64Values |         | `string[]` | Array containing the corresponding bas64 strings of the files.         |
-| mimeType?    | "_/_"   | `string`   | MIME type of the provided file. Define only when one file is provided. |
+| mimeType?    | "\*/\*" | `string`   | MIME type of the provided file. Define only when one file is provided. |
