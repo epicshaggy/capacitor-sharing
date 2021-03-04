@@ -63,7 +63,6 @@ public class Sharing extends Plugin {
             try (FileOutputStream fos = new FileOutputStream(file)) {
                 byte[] decodedData = Base64.decode(base64, Base64.DEFAULT);
                 fos.write(decodedData);
-                fos.flush();
             } catch (IOException e) {
                 Log.e(getLogTag(), e.getMessage());
                 call.reject("Failed to cache files.");
@@ -86,9 +85,9 @@ public class Sharing extends Plugin {
             intent.putExtra(Intent.EXTRA_STREAM, files.get(0));
         }
         intent.setTypeAndNormalize(mimeType);
-        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-        intent.addCategory(Intent.CATEGORY_DEFAULT);
-        
+        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
+
+        call.getData().remove("base64Values");
         saveCall(call);
         startActivityForResult(call, Intent.createChooser(intent, title), SHARE);
     }
