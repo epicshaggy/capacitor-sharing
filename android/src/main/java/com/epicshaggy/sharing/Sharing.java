@@ -1,15 +1,14 @@
 package com.epicshaggy.sharing;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.util.Base64;
 import android.util.Log;
 
+
 import androidx.core.content.FileProvider;
 
 import com.getcapacitor.JSArray;
-import com.getcapacitor.JSObject;
 import com.getcapacitor.NativePlugin;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
@@ -74,7 +73,7 @@ public class Sharing extends Plugin {
                 return;
             }
 
-            Uri uri = SharingProvider.getUriForFile(getContext(), "com.epicshaggy.sharing.capacitorsharing.fileprovider", file);
+            Uri uri = FileProvider.getUriForFile(getContext(),  getContext().getPackageName() + ".fileprovider", file);
             files.add(uri);
         }
 
