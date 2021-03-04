@@ -87,10 +87,8 @@ public class Sharing extends Plugin {
         }
         intent.setTypeAndNormalize(mimeType);
         intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-        intent.addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_DOCUMENT);
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-
+        intent.addCategory(Intent.CATEGORY_DEFAULT);
+        
         saveCall(call);
         startActivityForResult(call, Intent.createChooser(intent, title), SHARE);
     }
