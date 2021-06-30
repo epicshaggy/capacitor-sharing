@@ -1,9 +1,3 @@
-declare module "@capacitor/core" {
-  interface PluginRegistry {
-    Sharing: SharingPlugin;
-  }
-}
-
 export interface SharingOptions {
   fileNames: string[];
   base64Values: string[];
