@@ -24,7 +24,276 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="911487c5-f980-48b7-a90b-d76a92cabdd1" name="Default Changelist" comment="" />
+    <list default="true" id="911487c5-f980-48b7-a90b-d76a92cabdd1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epicshaggy/sharing/Sharing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epicshaggy/sharing/Sharing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/androidTest/java/com/getcapacitor/android/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/AndroidProtocolHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/AndroidProtocolHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/Bridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/Bridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/BridgeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/BridgeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/BridgeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/BridgeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/BridgeWebChromeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/BridgeWebChromeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/BridgeWebViewClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/BridgeWebViewClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/CapConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/CapConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/CapacitorFirebaseMessagingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/CapacitorWebView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/CapacitorWebView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/Dialogs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/InvalidPluginException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/InvalidPluginException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/InvalidPluginMethodException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/InvalidPluginMethodException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/JSArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/JSArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/JSExport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/JSExport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/JSExportException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/JSExportException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/JSInjector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/JSInjector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/JSObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/JSObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/LogUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/NativePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/NativePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/Plugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/Plugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginInvocationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginInvocationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginLoadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginLoadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginMethodHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginMethodHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginRequestCodes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/PluginResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/Splash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/UriMatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/UriMatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/WebViewLocalServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/WebViewLocalServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/cordova/CapacitorCordovaCookieManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/cordova/CapacitorCordovaCookieManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/cordova/MockCordovaInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/cordova/MockCordovaInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/cordova/MockCordovaWebViewImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/cordova/MockCordovaWebViewImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Accessibility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Browser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Camera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Clipboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Device.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Filesystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Geolocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Haptics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Keyboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/LocalNotifications.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Modals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Network.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Permissions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Photos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/PushNotifications.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Share.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/SplashScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/StatusBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Storage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/Toast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/WebView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/WebView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/background/BackgroundTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/background/BackgroundTaskService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/camera/CameraResultType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/camera/CameraSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/camera/CameraSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/camera/CameraUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/camera/ExifWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/camera/ImageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/notification/DateMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/notification/LocalNotification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/notification/LocalNotificationAttachment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/notification/LocalNotificationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/notification/LocalNotificationRestoreReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/notification/LocalNotificationSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/notification/NotificationAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/notification/NotificationChannelManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/notification/NotificationDismissReceiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/notification/NotificationStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/notification/TimedNotificationPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/util/AssetUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/plugin/util/AssetUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/ui/ModalsBottomSheetDialogFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/ui/Toast.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/util/HostMask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/main/java/com/getcapacitor/util/HostMask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/test/java/com/getcapacitor/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/test/java/com/getcapacitor/JSObjectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/test/java/com/getcapacitor/PluginMethodHandleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/capacitor/src/test/java/com/getcapacitor/util/HostMaskTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/android/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/android/scripts/release.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/core/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/cordova.js" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/core/cordova.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/capacitor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/capacitor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/capacitor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/capacitor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/core-plugin-definitions.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/core-plugin-definitions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/core-plugin-definitions.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/definitions.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/definitions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/definitions.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/global.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/global.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/util.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/util.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web-plugins.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web-plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web-plugins.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web-runtime.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web-runtime.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/accessibility.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/accessibility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/accessibility.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/app.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/app.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/browser.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/browser.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/camera.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/camera.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/camera.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/clipboard.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/clipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/clipboard.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/device.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/device.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/device.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/filesystem.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/filesystem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/filesystem.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/geolocation.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/geolocation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/geolocation.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/local-notifications.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/local-notifications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/local-notifications.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/modals.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/modals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/modals.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/motion.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/motion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/motion.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/network.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/network.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/network.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/permissions.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/permissions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/permissions.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/share.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/share.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/share.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/splash-screen.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/splash-screen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/splash-screen.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/storage.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/storage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/storage.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/toast.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/esm/web/toast.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/core/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/native-bridge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPAppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPAssetHandler.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPBridge.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPBridge.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPBridgeDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPBridgeDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPBridgeViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPBridgeViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPConfig.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPFile.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPFile.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPLog.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPLog.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPNotifications.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPNotifications.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPPlugin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPPluginCall.h" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPPluginCall.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPPluginCall.m" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPPluginCall.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPPluginCall.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPPluginCall.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/CAPUNUserNotificationCenterDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Capacitor.h" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Capacitor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Diagnostics.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/DocLinks.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/DocLinks.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/JS.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/JS.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/JSExport.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/JSExport.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Accessibility.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/App.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/BackgroundTask.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Browser.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Camera.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Clipboard.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Console.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Console.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/DefaultPlugins.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/DefaultPlugins.m" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/DefaultPlugins.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Device.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Filesystem.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Geolocation.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Haptics.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Keyboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Keyboard.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/LocalNotifications.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Modals.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Network/Network.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Network/Reachability.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Permissions.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Photos/Photos.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/PushNotifications.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Share.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/SplashScreen.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/StatusBar.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Storage.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/Toast.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/WebView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/Plugins/WebView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/TmpViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/TmpViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/UIColor.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/UIColor.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/UILabel.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/UIStatusBarManager+CAPHandleTapAction.m" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Capacitor/UIStatusBarManager+CAPHandleTapAction.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/CapacitorTests/CapacitorTests.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/CapacitorTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Podfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/Capacitor/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/CapacitorCordova.h" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/CapacitorCordova.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Classes/Public/CDVCommandDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Classes/Public/CDVCommandDelegate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Classes/Public/CDVCommandDelegateImpl.m" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Classes/Public/CDVCommandDelegateImpl.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Classes/Public/CDVPluginResult.m" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Classes/Public/CDVPluginResult.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Classes/Public/CDVUIWebViewDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Classes/Public/CDVUIWebViewDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Classes/Public/CDVUserAgentUtil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Classes/Public/CDVUserAgentUtil.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Classes/Public/CDVViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Classes/Public/CDVViewController.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/CapacitorCordova/CapacitorCordova/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/@capacitor/ios/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/@capacitor/ios/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/tslib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/tslib/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/tslib/modules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/tslib/modules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/tslib/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/tslib/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/tslib/test/validateModuleExportsMatchCommonJS/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/tslib/test/validateModuleExportsMatchCommonJS/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/tslib/tslib.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/tslib/tslib.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/tslib/tslib.es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/tslib/tslib.es6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/tslib/tslib.js" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/tslib/tslib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

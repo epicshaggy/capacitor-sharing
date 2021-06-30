@@ -28,14 +28,7 @@ export class SharingWeb extends WebPlugin implements SharingPlugin {
         });
         FileSaver.saveAs(blob, options.fileNames[i]);
       }
-      resolve();
+      resolve(undefined);
     });
   }
 }
-
-const Sharing = new SharingWeb();
-
-export { Sharing };
-
-import { registerWebPlugin } from "@capacitor/core";
-registerWebPlugin(Sharing);

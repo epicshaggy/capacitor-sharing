@@ -1,5 +1,7 @@
 package com.epicshaggy.sharing;
 
+import android.app.Activity;
+import android.app.Instrumentation;
 import android.content.Intent;
 import android.net.Uri;
 import android.util.Base64;
@@ -9,10 +11,11 @@ import android.util.Log;
 import androidx.core.content.FileProvider;
 
 import com.getcapacitor.JSArray;
-import com.getcapacitor.NativePlugin;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
+import com.getcapacitor.annotation.ActivityCallback;
+import com.getcapacitor.annotation.CapacitorPlugin;
 
 import org.json.JSONException;
 
@@ -21,10 +24,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
-@NativePlugin(requestCodes = {Sharing.SHARE})
+@CapacitorPlugin()
 public class Sharing extends Plugin {
-
-    protected static final int SHARE = 1020;
 
     @PluginMethod()
     public void share(PluginCall call) throws JSONException {
@@ -88,8 +89,7 @@ public class Sharing extends Plugin {
         intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
 
         call.getData().remove("base64Values");
-        saveCall(call);
-        startActivityForResult(call, Intent.createChooser(intent, title), SHARE);
+        startActivityForResult(call, intent, "shareResult");
     }
 
     private File getCacheDir() {
@@ -106,11 +106,17 @@ public class Sharing extends Plugin {
         return cacheDir;
     }
 
-    @Override
-    protected void handleOnActivityResult(int requestCode, int resultCode, Intent data) {
-        super.handleOnActivityResult(requestCode, resultCode, data);
-        if(requestCode == SHARE) {
-                getSavedCall().resolve();
+    @ActivityCallback
+    private void shareResult(PluginCall call, Instrumentation.ActivityResult result) {
+        switch (result.getResultCode()) {
+            case Activity.RESULT_OK:
+                call.resolve();
+                return;
+            case Activity.RESULT_CANCELED:
+                call.reject("Activity was canceled");
+                return;
+            default:
+                call.reject("Unknown Error");
                 return;
         }
     }

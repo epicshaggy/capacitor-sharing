@@ -6,6 +6,12 @@ Provides a way to share one or more files at a time.
 
 ## Installation
 
+### Capacitor 2
+
+- `npm i capacitor-sharing@1.0.3`
+
+### Capacitor 3
+
 - `npm i capacitor-sharing`
 
 ## Usage

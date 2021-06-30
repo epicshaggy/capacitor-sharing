@@ -40,18 +40,24 @@ public class Sharing: CAPPlugin {
             urls.append(url)
         }
     
+        
         DispatchQueue.main.async {
             let activityViewController = UIActivityViewController(activityItems: urls, applicationActivities: nil)
-            let mainView = self.bridge.viewController.view
+            
+            
+            guard let mainView = self.bridge?.viewController?.view else {
+                call.reject("Unable to get viewController.view")
+                return
+            }
             
             activityViewController.popoverPresentationController?.sourceView = mainView
             activityViewController.popoverPresentationController?.sourceRect =
-                CGRect(x: mainView?.center.x ?? 0,
-                       y: mainView?.bounds.size.height ?? 0,
+                CGRect(x: mainView.center.x,
+                       y: mainView.bounds.size.height,
                        width: 0,
                        height: 0)
             
-            self.bridge.viewController.present(activityViewController, animated: true, completion: {
+            self.bridge?.presentVC(activityViewController, animated: true, completion: {
                 call.resolve()
             })
         }
