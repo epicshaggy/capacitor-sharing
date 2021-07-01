@@ -45,7 +45,7 @@ public class Sharing: CAPPlugin {
             let activityViewController = UIActivityViewController(activityItems: urls, applicationActivities: nil)
             
             
-            guard let mainView = self.bridge?.viewController.view else {
+            guard let mainView = self.bridge?.viewController?.view else {
                 call.reject("Unable to get viewController.view")
                 return
             }
