@@ -1,6 +1,6 @@
 {
   "name": "capacitor-sharing",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Enables sharing of 1 or more resources.",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
