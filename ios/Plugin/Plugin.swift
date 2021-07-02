@@ -57,7 +57,7 @@ public class Sharing: CAPPlugin {
                        width: 0,
                        height: 0)
             
-            self.bridge?.presentVC(activityViewController, animated: true, completion: {
+            self.bridge?.viewController?.present(activityViewController, animated: true, completion: {
                 call.resolve()
             })
         }
